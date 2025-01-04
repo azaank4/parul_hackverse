@@ -6,7 +6,7 @@ API_URL = "https://api-inference.huggingface.co/models/openai/whisper-large-v3-t
 headers = {"Authorization": "Bearer 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"}
 
 # Gemini API configuration
-GOOGLE_API_KEY = "AIzaSyAmmJdR44ByOvMT9oUnH3e2GGbSXaxpUEw"
+GOOGLE_API_KEY = "YOUR-API-KEY"
 genai.configure(api_key=GOOGLE_API_KEY)
 MODEL_NAME = "models/gemini-1.5-flash"
 model = genai.GenerativeModel(MODEL_NAME)
