@@ -6,7 +6,7 @@ import fitz
 import PyPDF2
 
 # Configure Gemini API
-GOOGLE_API_KEY = "AIzaSyAmmJdR44ByOvMT9oUnH3e2GGbSXaxpUEw"
+GOOGLE_API_KEY = "YOUR-API-KEY"
 genai.configure(api_key=GOOGLE_API_KEY)
 MODEL_NAME = "models/gemini-1.5-flash"
 model = genai.GenerativeModel(MODEL_NAME)
