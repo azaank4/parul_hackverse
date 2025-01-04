@@ -24,7 +24,7 @@ def extract_text_from_pdf(pdf_path):
     return text
 
 # Configure API key
-GOOGLE_API_KEY = "AIzaSyAmmJdR44ByOvMT9oUnH3e2GGbSXaxpUEw"
+GOOGLE_API_KEY = "YOUR-API-KEY"
 genai.configure(api_key=GOOGLE_API_KEY)
 print("Google API Key: ", GOOGLE_API_KEY)
 # Set the default model to "models/gemini-1.5-flash"
